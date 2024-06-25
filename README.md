@@ -10,8 +10,6 @@ Just want to make myself without annoying content.
 ## Description
 A mobile app created to help people record their daily steps using MERN stack.
 
-## Deploy link
-https://expo.io/@iconick2020/steps
 
 ## Demo App
 <img src='./assets/ezgif-3-9c7821b643ae.gif'/>
