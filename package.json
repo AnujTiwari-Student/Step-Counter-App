@@ -1,0 +1,46 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-native start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-native build"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.6",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@use-expo/font": "^2.0.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "expo": "~51.0.14",
+    "expo-sensors": "^13.0.8",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "react": "~18.3.1",
+    "react-dom": "~18.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "react-native-animated-swiper": "0.0.23",
+    "react-native-circular-progress": "^1.4.0",
+    "react-native-gesture-handler": "~2.17.1",
+    "react-native-modal": "^13.0.1",
+    "react-native-reanimated": "~3.12.1",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "~3.32.0",
+    "react-native-svg": "^15.3.0",
+    "react-native-web": "~0.19.12",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "babel-preset-expo": "~11.0.10"
+  },
+  "private": true
+}
